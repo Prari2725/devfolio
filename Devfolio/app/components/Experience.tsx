@@ -11,26 +11,26 @@ interface ExperienceCard {
 const experienceCards: ExperienceCard[] = [
   {
     id: 1,
-    title: "WebHR - HR Management App",
-    description: "WebHR automates all of your company's HR processes such as Recruitment, Onboarding, Payroll, Time & Attendance, Leaves & PTO, Performance, and much more.",
+    title: "PrintMechanix – 3D Printing Manufacturing Platform",
+    description: "PrintMechanix is a full-stack web platform that streamlines the 3D printing manufacturing workflow. The application enables users to upload 3D models, select materials, place print orders, and track order status in real time. It includes secure user authentication, integrated payment processing, and complete order history management.",
     icon: "/cards/card-1.png",
   },
   {
     id: 2,
-    title: "WebHR Kiosk - Time Clock Kiosk",
-    description: "WebHR Kiosk is a time clock kiosk that allows you to clock in and out of your work. It is a simple and easy to use app that allows you to clock in and out of your work.",
+    title: "Employee Access Control System",
+    description: "An automated, contactless attendance system built using Python-based facial recognition. The system leverages Haar Cascade for face detection and a Tkinter-based interface to record and manage attendance data efficiently in Excel format.",
     icon: "/cards/card-2.png",
   },
   {
     id: 3,
-    title: "Somezing - AI-Powered Agents",
-    description: "Somezing is a AI-Powered Agents to Automate Your Workflows. It is a simple and easy to use app that allows you to automate your workflows.",
+    title: "AI-Driven Gesture-Controlled Image Capture System",
+    description: "An AI-powered computer vision application that enables hands-free image capture using gesture recognition. The system supports cloud storage and QR-code-based sharing for instant access to captured images.",
     icon: "/cards/card-3.png",
   },
   {
     id: 4,
-    title: "FileIT - File Sharing App",
-    description: "FileIT is a file sharing app that allows you to share files with your friends and family. It is a simple and easy to use app that allows you to share files with your friends and family.",
+    title: "Invoicify – Invoice Management System",
+    description: "Invoicify is a full-stack invoice management system designed to streamline customer billing and financial operations. Built using Spring Boot, Hibernate, MySQL, and Docker, it supports secure authentication with JWT, role-based access control, invoice creation, PDF generation, email verification, and two-factor authentication. The platform features a responsive React-based UI and enables activity tracking with exportable reports.",
     icon: "/cards/card-4.png",
   },
 ];
@@ -65,7 +65,7 @@ export default function Experience(): React.JSX.Element {
                 {card.description}
               </p>
               <Link
-                href="https://ibiimemon.com/lab"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-purple-400 hover:text-purple-300 font-medium text-sm transition-colors inline-block"

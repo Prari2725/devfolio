@@ -10,10 +10,11 @@ export default function Footer(): React.JSX.Element {
             Contact
           </h2>
           <p className="text-md text-white/80 max-w-2xl mx-auto mb-8">
-            I&apos;m currently looking to join a cross-functional team that values 
-            improving people&apos;s lives through accessible design, or have a project 
-            in mind? Let&apos;s connect.
-          </p>
+  Actively seeking frontend, backend, or full-stack development opportunities where I can 
+  build scalable, user-focused applications and contribute across the entire product lifecycle 
+  within a collaborative engineering team.
+</p>
+
           <a
             href="mailto:pragatirpehrkar@gmail.com"
             className="text-md text-purple-400 hover:text-purple-300 transition-colors"

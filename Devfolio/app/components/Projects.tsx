@@ -9,18 +9,20 @@ interface Project {
 }
 
 const featuredProjects: Project[] = [
-  {
-    id: 1,
-    title: "NeuraWeb – Futuristic AI Website Landing Design",
-    description: "A sleek, dark-themed AI-powered landing page concept built in Figma. Designed for modern startups and futuristic digital products, it features glowing neon visuals, immersive UI, and a dynamic tone. The design encapsulates the cutting-edge possibilities of AI and tech, offering a glimpse into the future of online experiences for tech-forward companies.",
-    link: "https://www.figma.com/community/file/1441377868897233703/ai-website-landing-design",
-    image: "/projects/project-1.png",
-  },
-  {
+ {
     id: 2,
-    title: "Apple Vision Pro – HR Software Design",
-    description: "A futuristic HR software concept designed for Apple Vision Pro, built in Figma to reimagine attendance, leave tracking, and employee experience - all in one immersive interface.",
-   link: "https://www.figma.com/community/file/1371824014208363481/apple-vision-pro-hr-software-design",
+    title: "PrintMechanix – 3D Printing Manufacturing Platform",
+    description: "A full-stack 3D printing service platform developed as a freelancing project. Built using ReactJS, Spring Boot, and MySQL, the platform enables users to upload 3D models, select materials, and place print orders with real-time status tracking. It features secure authentication, integrated payment gateway, order history management, and a responsive UI optimized for all devices. The project delivers an end-to-end digital manufacturing experience tailored for modern 3D printing businesses.",
+    link: "",
+    image: "/projects/project1.png",
+  },
+  
+    {
+    id: 3,
+    title: "EazyDeals – E-Commerce Web Application",
+    description: "A full-stack e-commerce web application developed using Java, JSP, Servlets, JDBC, and MySQL. The platform supports secure user authentication, product browsing, shopping cart, wishlist management, and order processing. Built with a responsive UI using HTML, CSS, and Bootstrap, the application delivers a smooth and reliable online shopping experience with secure session handling and efficient database design.",
+    link: "",
+
     image: "/projects/project-2.png",
   },
 ];
