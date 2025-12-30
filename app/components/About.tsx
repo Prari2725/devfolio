@@ -11,14 +11,22 @@ export default function About(): React.JSX.Element {
             improving people&apos;s lives through accessible design</span>
           </p>
         </div>
-        <Image 
+        {/* <Image 
           src="/assets/illustrationn.png"
           alt="Skills"
           width={800}
           height={800}
           className="object-cover mx-auto"
           style={{ width: "auto", height: "auto" }}
-        />
+        /> */}
+
+        <Image 
+  src="/assets/illustrationn.png" // relative to public/
+  alt="Skills"
+  width={800}
+  height={800}
+  className="object-cover mx-auto"
+/>
       </div>
     </section>
   );
