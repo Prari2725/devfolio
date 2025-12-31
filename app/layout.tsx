@@ -13,15 +13,14 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Pragati Peharkar - Full Stack Developer",
-  description: "A self-taught UI/UX designer and Software Engineer at WebHR. Creating meaningful and delightful digital products that balance user needs and business goals. 3+ years of industry experience.",
   keywords: [
     "Pragati Peharkar",
+    "Full Stack Developer",
     "Software Engineer",
+    "Java Developer",
     "Frontend Developer",
     "React Developer",
-    "Web Designer",
-    "WebHR Engineer",
-    "Portfolio",
+    "Freelancer",
   ],
   authors: [{ name: "Pragati Peharkar" }],
   creator: "Pragati Peharkar",
@@ -31,13 +30,12 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://google.com",
     title: "Pragati Peharkar - Full Stack Developer",
-    description: "A self-taught UI/UX designer and Software Engineer at WebHR. Creating meaningful and delightful digital products.",
     siteName: "Pragati Peharkar Devfolio",
   },
   twitter: {
     card: "summary_large_image",
     title: "Pragati Peharkar - Full Stack Developer",
-    description: "A self-taught UI/UX designer and Software Engineer at WebHR.",
+   
   },
   robots: {
     index: true,

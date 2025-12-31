@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 
 export default function Banner(): React.JSX.Element {
-  const texts = ["Full Stack Developer", "Software Developer", "Java Developer", "React  Developer"];
+  const texts = ["Freelancer","Full Stack Developer", "Software Developer", "Java Developer", "React Developer"];
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
   const [displayedText, setDisplayedText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
@@ -114,7 +114,7 @@ export default function Banner(): React.JSX.Element {
               <div className="absolute -bottom-2 left-8 w-0 h-0 border-l-8 border-l-transparent border-r-8 border-r-transparent border-t-8 border-t-white/10"></div>
             </div>
             <div className="">
-              <p className="text-2xl"> A Designer who </p>
+              <p className="text-2xl"> A Developer who </p>
               <h1 className="text-5xl tracking-tight lg:text-7xl font-semibold text-white leading-tight">
                 Judges a book
                 <br /> by its{" "}
