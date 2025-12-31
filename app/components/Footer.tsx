@@ -25,6 +25,19 @@ export default function Footer(): React.JSX.Element {
 
         {/* Social Media Icons */}
         <div className="flex justify-center gap-6 mt-12">
+           <Link
+    href="mailto:pragatirpehrkar@gmail.com"
+    className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 border border-purple-500/30 hover:border-purple-500/50 transition-all"
+    aria-label="Email"
+  >
+    <Image
+      src="/assets/email.png"
+      alt="Email"
+      width={20}
+      height={20}
+      className="w-5 h-5"
+    />
+  </Link>
           <Link
             href="https://www.instagram.com/"
             target="_blank"
