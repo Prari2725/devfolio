@@ -23,7 +23,7 @@ const featuredProjects: Project[] = [
     description: "A full-stack e-commerce web application developed using Java, JSP, Servlets, JDBC, and MySQL. The platform supports secure user authentication, product browsing, shopping cart, wishlist management, and order processing. Built with a responsive UI using HTML, CSS, and Bootstrap, the application delivers a smooth and reliable online shopping experience with secure session handling and efficient database design.",
     link: "",
 
-    image: "/projects/project-2.png",
+    image: "/projects/project2.png",
   },
 ];
 
