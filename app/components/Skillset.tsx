@@ -65,7 +65,7 @@ import {
       <section id="skills" className="py-20 px-6">
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-12 text-center">
-            Skillset
+          Tools  & Technologies I Build With
           </h2>
   
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
