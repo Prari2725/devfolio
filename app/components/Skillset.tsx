@@ -8,7 +8,9 @@ import {
     FaDocker,
     FaGitAlt,
     FaRing,
+    FaPython,
   } from "react-icons/fa";
+import { FaP } from "react-icons/fa6";
   import { SiNextdotjs, SiMysql, SiMongodb, SiTailwindcss } from "react-icons/si";
   
   interface SkillCategory {
@@ -40,6 +42,7 @@ import {
         { name: "Java", icon: <FaJava /> },
         { name: "Spring Boot", icon: <FaRing /> },
         { name: "REST APIs", icon: <FaDatabase /> },
+        {name:"Python",icon:<FaPython />},
       ],
     },
     {
@@ -65,7 +68,7 @@ import {
       <section id="skills" className="py-20 px-6">
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-12 text-center">
-          Tools  & Technologies I Build With
+          Tools  & Te`chnologies I Build With
           </h2>
   
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
